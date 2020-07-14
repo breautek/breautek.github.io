@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Breautek</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://breautek.com/"/>
+  <updated>2020-07-14T01:01:07.072Z</updated>
+  <id>https://breautek.com/</id>
+  
+  <author>
+    <name>Norman Breau</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Enabling CORS</title>
+    <link href="https://breautek.com/2020/07/14/enabling-cors/"/>
+    <id>https://breautek.com/2020/07/14/enabling-cors/</id>
+    <published>2020-07-14T01:01:07.072Z</published>
+    <updated>2020-07-14T01:01:07.072Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;CORS-in-a-Nutshell&quot;&gt;&lt;a href=&quot;#CORS-in-a-Nutshell&quot; class=&quot;headerlink&quot; title=&quot;CORS in a Nutshell&quot;&gt;&lt;/a&gt;CORS in a Nutshell&lt;/h2&gt;&lt;p&gt;Now
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Programming" scheme="https://breautek.com/categories/Programming/"/>
+    
+      <category term="System Administration" scheme="https://breautek.com/categories/Programming/System-Administration/"/>
+    
+    
+      <category term="cordova" scheme="https://breautek.com/tags/cordova/"/>
+    
+      <category term="wkwebview" scheme="https://breautek.com/tags/wkwebview/"/>
+    
+      <category term="javascript" scheme="https://breautek.com/tags/javascript/"/>
+    
+      <category term="ios" scheme="https://breautek.com/tags/ios/"/>
+    
+  </entry>
+  
+</feed>
