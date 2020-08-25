@@ -37,7 +37,7 @@ Before we continue, I assume you have proficient knowledge in the HTTP protocol,
 
 The `Access-Control-Allow-Origin` is the main header, which expects one value. According to some [documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin), this value can be `*` or `null`, but in my experience, neither worked on `WKWebView`.
 
-Instead, it is best to simply set the `Access-Control-Allow-Origin` header to the same value as the request `Origin` header. This acheives the same result as a `*` wildcard. Examples are shown below:
+Instead, it is best to simply set the `Access-Control-Allow-Origin` header to the same value as the request `Origin` header. This achieves the same result as a `*` wildcard. Examples are shown below:
 
 #### NGINX
 ``` nginx
