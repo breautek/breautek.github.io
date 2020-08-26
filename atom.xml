@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://breautek.com/"/>
-  <updated>2020-08-25T12:52:26.832Z</updated>
+  <updated>2020-08-26T03:56:06.969Z</updated>
   <id>https://breautek.com/</id>
   
   <author>
@@ -17,11 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Understanding Geolocation Accuracy</title>
+    <link href="https://breautek.com/2020/08/25/geolocation-accuracy/"/>
+    <id>https://breautek.com/2020/08/25/geolocation-accuracy/</id>
+    <published>2020-08-25T00:00:00.000Z</published>
+    <updated>2020-08-26T03:56:06.969Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Knowledge-Prerequisites&quot;&gt;&lt;a href=&quot;#Knowledge-Prerequisites&quot; class=&quot;headerlink&quot; title=&quot;Knowledge Prerequisites&quot;&gt;&lt;/a&gt;Knowledge
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Programming" scheme="https://breautek.com/categories/Programming/"/>
+    
+    
+      <category term="cordova" scheme="https://breautek.com/tags/cordova/"/>
+    
+      <category term="ios" scheme="https://breautek.com/tags/ios/"/>
+    
+      <category term="geolocation" scheme="https://breautek.com/tags/geolocation/"/>
+    
+      <category term="android" scheme="https://breautek.com/tags/android/"/>
+    
+      <category term="mobile" scheme="https://breautek.com/tags/mobile/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Enabling CORS</title>
     <link href="https://breautek.com/2020/07/14/enabling-cors/"/>
     <id>https://breautek.com/2020/07/14/enabling-cors/</id>
     <published>2020-07-14T00:00:00.000Z</published>
-    <updated>2020-08-25T12:52:26.832Z</updated>
+    <updated>2020-08-26T03:56:06.969Z</updated>
     
     <summary type="html">
     
