@@ -9,6 +9,10 @@ tags:
     - cordova
     - mobile
 date: 2020/8/25
+twitter:
+    shareid: twsrc%5Etfw
+    text: Understanding Geolocation Accuracy
+    url: https://breautek.com/2020/08/25/geolocation-accuracy/
 ---
 
 ## Knowledge Prerequisites
