@@ -9,6 +9,10 @@ tags:
     - javascript
     - ios
 date: 2020/7/14
+twitter:
+    shareid: twsrc%5Etfw
+    text: How to deal with CORS on Cordova...
+    url: https://breautek.com/2020/07/14/enabling-cors/
 ---
 
 ## CORS in a Nutshell
