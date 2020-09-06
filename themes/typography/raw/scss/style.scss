@@ -718,3 +718,16 @@ figure {
     display: block !important;
   }
 }
+
+.share {
+  display: flex;
+  align-items: center;
+  
+  .soc {
+    display: flex;
+  }
+
+  .share-label {
+    padding-right: 15px;
+  }
+}

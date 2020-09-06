@@ -14,8 +14,8 @@ block content
         include mixins
         +make_post(page, true)
         if page.twitter
-            div.share
-                span= __('share')
+            .share
+                span.share-label= __('share')
                 | &nbsp;
                 span.soc
                     a.twitter-share-button(href=('https://twitter.com/share?ref_src=' + page.twitter.shareid), data-text=(page.twitter.text), data-via="NormanBreau", data-show-count="true", data-url=(page.twitter.url))
