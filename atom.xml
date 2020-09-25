@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://breautek.com/"/>
-  <updated>2020-09-06T03:50:03.008Z</updated>
+  <updated>2020-09-25T01:14:59.044Z</updated>
   <id>https://breautek.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://breautek.com/2020/08/25/geolocation-accuracy/"/>
     <id>https://breautek.com/2020/08/25/geolocation-accuracy/</id>
     <published>2020-08-25T00:00:00.000Z</published>
-    <updated>2020-09-06T03:50:03.008Z</updated>
+    <updated>2020-09-25T01:14:59.044Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;Knowledge-Prerequisites&quot;&gt;&lt;a href=&quot;#Knowledge-Prerequisites&quot; class=&quot;headerlink&quot; title=&quot;Knowledge Prerequisites&quot;&gt;&lt;/a&gt;Knowledge
+          &lt;h3 id=&quot;Knowledge-Prerequisites&quot;&gt;&lt;a href=&quot;#Knowledge-Prerequisites&quot; class=&quot;headerlink&quot; title=&quot;Knowledge Prerequisites&quot;&gt;&lt;/a&gt;Knowledge
         
       
     
@@ -56,7 +56,7 @@
     <link href="https://breautek.com/2020/07/14/enabling-cors/"/>
     <id>https://breautek.com/2020/07/14/enabling-cors/</id>
     <published>2020-07-14T00:00:00.000Z</published>
-    <updated>2020-09-06T03:50:03.008Z</updated>
+    <updated>2020-09-25T01:14:59.044Z</updated>
     
     <summary type="html">
     
@@ -64,7 +64,7 @@
       
         
         
-          &lt;h2 id=&quot;CORS-in-a-Nutshell&quot;&gt;&lt;a href=&quot;#CORS-in-a-Nutshell&quot; class=&quot;headerlink&quot; title=&quot;CORS in a Nutshell&quot;&gt;&lt;/a&gt;CORS in a Nutshell&lt;/h2&gt;&lt;p&gt;Now
+          &lt;h3 id=&quot;CORS-in-a-Nutshell&quot;&gt;&lt;a href=&quot;#CORS-in-a-Nutshell&quot; class=&quot;headerlink&quot; title=&quot;CORS in a Nutshell&quot;&gt;&lt;/a&gt;CORS in a Nutshell&lt;/h3&gt;&lt;p&gt;Now
         
       
     
