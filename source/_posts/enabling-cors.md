@@ -15,7 +15,7 @@ twitter:
     url: https://breautek.com/2020/07/14/enabling-cors/
 ---
 
-## CORS in a Nutshell
+### CORS in a Nutshell
 
 Now that Apple is enforcing `WKWebView` on all applications, there is a whole lot more talk on these strange problems with using <span class="tip" title="XMLHttpRequest">XHR</span> or ajax requests. They no longer work! Why? Because of <span class="tip" title="Cross-Origin Resource Sharing">CORS</span>.
 
@@ -34,23 +34,23 @@ So how do implement the protocol? This depends on your tech stack on your server
 - `Access-Control-Allow-Headers`
 - `Access-Control-Allow-Methods`
 
-## Knowledge Prerequisites
+### Knowledge Prerequisites
 
 Before we continue, I assume you have proficient knowledge in the HTTP protocol, you know your way around your server stack, and you know how to configure your webserver. Some examples are shown using specific technologies and should be easy to adapt to other technologies.
 
-### Access-Control-Allow-Origin
+#### Access-Control-Allow-Origin
 
 The `Access-Control-Allow-Origin` is the main header, which expects one value. According to some [documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin), this value can be `*` or `null`, but in my experience, neither worked on `WKWebView`.
 
 Instead, it is best to simply set the `Access-Control-Allow-Origin` header to the same value as the request `Origin` header. This achieves the same result as a `*` wildcard. Examples are shown below:
 
-#### NGINX
+##### NGINX
 ``` nginx
 add_header 'Access-Control-Allow-Origin' $http_origin always;
 
 ```
 
-### Access-Control-Allow-Headers
+#### Access-Control-Allow-Headers
 
 This header defines a list of headers that are acceptable. Some common ones that you'll prbably want to include are:
 
@@ -60,7 +60,7 @@ This header defines a list of headers that are acceptable. Some common ones that
 
 Add more as you see fit, including any custom headers you choose to use.
 
-### Access-Control-Allow-Methods
+#### Access-Control-Allow-Methods
 
 This header defines a list of HTTP methods that are acceptable. Chances are you'll want the following methods:
 
@@ -72,7 +72,7 @@ This header defines a list of HTTP methods that are acceptable. Chances are you'
 
 Special note on `OPTIONS`, this is a *required* method to be added for Preflight Requests. Feel free to add or remove others as you see fit.
 
-## Preflight Requests
+### Preflight Requests
 
 Preflight requests will happen in certain conditions. A preflight request is an additional request sent by the webview to the same URL endpoint, but with the `OPTIONS` http method. This happens behind-the-scenes.
 

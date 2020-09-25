@@ -35,7 +35,7 @@ mixin make_post(item, is_detail)
         if is_detail
             p.post-abstract!= item.content
         else
-            p.post-abstract!= truncate(strip_html(item.content.replace(/<pre(?: |>)[^]*?<\/pre>/gm, ' ')), {length: 160})
+            p.post-abstract!= truncate(item.content.replace(/<pre(?: |>)[^]*?<\/pre>/gm, ' ').replace(/<h+[0-9](?: |>)[^]*?>/gm, '<p>').replace(/<\/h+[0-9]>/gm, '</p>').replace(/<span>|<\/span>/gm, '').replace(/<span+(?: |>)[^]*?>/gm, '').replace(/<span>[^]*?>/gm, '<p>'), {length: 512})
 
 mixin make_page_links()
     if site.pages

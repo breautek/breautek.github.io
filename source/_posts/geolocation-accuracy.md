@@ -15,11 +15,11 @@ twitter:
     url: https://breautek.com/2020/08/25/geolocation-accuracy/
 ---
 
-## Knowledge Prerequisites
+### Knowledge Prerequisites
 
 Before we continue, I assume you have proficient knowledge in general purpose programming languages. Code examples shown in this article are pseudo code using a C-style syntax.
 
-## Geolocation Accuracy
+### Geolocation Accuracy
 
 Geolocation accuracy is something you should program for. You should also expect problems and program appropriate user feedback. GPS technologies is awesome, but they are also many variables that will be outside of your control that can cause poor user experiences.
 
@@ -45,7 +45,7 @@ Even in ideal environmental conditions, if the phone hasn't used GPS recently, y
 
 You may say, "Wow 15 minutes? That's a long time!", and yes, you would be right. It is a long time. That's why most modern devices have <span class="tip" title="Assisted GPS">A-GPS</span> features, to reduce the reliance on the physical GPS satellites orbiting our planet and use other beacons to assist the GPS receiver. These beacons usually includes cell towers, wifi networks, and even other devices using bluetooth. However, some devices the user has fine control on what they want their phone to connect to, which could limit your ability to take advantage of A-GPS features.
 
-## Handling poor accuracy readings
+### Handling poor accuracy readings
 
 So what can we do? If you answered "not much", you'd be correct! However, a good app would always deal with poor accuracy readings in one way or another. For some apps, this may be simply ignoring the GPS event and wait for the next one. Other apps may count the erroneous events to decide if they should notify the user about a weak GPS signal. This obviously all depends on the app and their use cases.
 
@@ -65,7 +65,7 @@ In this example, we have an `accuracy` reading of `2616` meters (Most APIs are i
 
 As you can see, in this GPS position shows I'm in the small city of Fredericton, however because of the `accuracy` reading, I could be pretty much anywhere in Fredericton. This accuracy level may be fine for some applications, however if more precision is required, then this point is not a good point to use. Therefore, this GPS event should be ignored, or counted as an error point.
 
-## More ways to determine accuracy
+### More ways to determine accuracy
 
 Using the `accuracy` field isn't the only way to determine the validity of a GPS update.
 
