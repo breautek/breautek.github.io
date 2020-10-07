@@ -1,12 +1,18 @@
 mixin make_post(item, is_detail)
+    -
+        if (item.showDates === undefined || item.showDates === null) {
+            item.showDates = true
+        }
     div.post-container
         p.post-title
             if is_detail
                 a= item.title
             else
                 a(href= url_for(item.path))= item.title
+
         p.post-meta
-            span.date.meta-item!=__("posted_at")+"&nbsp;" + date(item.date, 'YYYY-MM-DD')
+            if item.showDates
+                span.date.meta-item!=__("posted_at")+"&nbsp;" + date(item.date, 'YYYY-MM-DD')
             if theme.duoshuo || theme.disqus
                 span.meta-item
                     i.fa.fa-comment-o
@@ -40,11 +46,12 @@ mixin make_post(item, is_detail)
 mixin make_page_links()
     if site.pages
         - site.pages.each(function (page) {
-            li
-                    if is_current(page.path)
-                        a.current(href=config.root+page.path)= page.title
-                    else
-                        a(href=config.root+page.path)= page.title
+            if !page.hideLink
+                li
+                        if is_current(page.path)
+                            a.current(href=config.root+page.path)= page.title
+                        else
+                            a(href=config.root+page.path)= page.title
         - });
 
 
