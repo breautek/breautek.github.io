@@ -2,10 +2,7 @@
 title: Authenticating Users Using JWT
 categories:
     - Programming
-    - JavaScript
 tags:
-    - nodejs
-    - javascript
     - jwt
 date: 2021/01/08
 twitter:
@@ -39,7 +36,7 @@ Each part is separated by a `.` character and is base64 encoded.
 
 The first part: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9` is the header and when decoded to a pure string, you'll find the following JSON:
 
-```json
+```
 {
     "alg": "HS256",
     "typ": "JWT"
@@ -52,7 +49,7 @@ The next part is the payload: `eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lI
 
 will produce the following JSON:
 
-```json
+```
 {
     "sub": "1234567890",
     "name": "John Doe",
