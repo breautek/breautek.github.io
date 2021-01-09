@@ -1,0 +1,46 @@
+<!-- ---
+title: Architecting a Cordova App
+categories:
+    - Programming
+    - Cordova
+tags:
+    - mobile
+    - cordova
+    - javascript
+    - webview
+    - software design
+date: 2020/12/22
+twitter:
+    shareid: twsrc%5Etfw
+    text: Architecting a Cordova App...
+    url: https://breautek.com/2020/12/22/architecting-a-cordova-app/
+---
+
+### Summary
+
+This article will explain the architecture of Cordova. We will go over how Cordova works, how applications runs in Cordova and how applications should generally be structured.
+
+### Knowledge Prerequisites
+
+This article assumes that you have enough knowledge to build web applications using HTML, JavaScript, s This article is aimed for web application developers either looking into using Cordova to build their mobile application or developers looking to improve their existing Cordova application.
+
+### What is Cordova
+
+Cordova is a framework that packages web assets together with a webview so that native applications can be built using web technologies. This is often called "hybrid" apps as they are often simply a native shell and the entire app lives in a webview. In fact, often the application only uses one native element, and that's the webview itself.
+
+There are pros and cons to this approach. Developers needs to carefully consider both sides to determine if using hybrid approach makes sense for their application or for their areas of expertise.
+
+This article won't go into detail but here is a chart of the pros & cons for using Cordova.
+
+|Pros|Cons|
+|----|----|
+|Easily create a cross-platform app using a single codebase|It is difficult to obtain native-like performance.|
+|Webpages are known for ease of creating UI|It's hard to obtain a "native" UI style, however there are libraries for this.|
+|Large amount of code can be shared between the Cordova app and other web-based clients such as a web portal.|Not all web features work the same in the native webview.|
+|Easier to obtain a consistent style cross platform.|Some devices have updatable webviews, resulting app breaking without warning.
+
+The Pros & Cons is not an exhaustive list, but some points will be discussed further.
+
+#### The Cordova Bridge
+
+There are times that the app needs to do something that the webview just simply doesn't support. -->
