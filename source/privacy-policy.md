@@ -156,9 +156,9 @@ Third parties may serve cookies on your computer or mobile device to serve adver
 
 ### How often will you update this Cookie Policy?
 
-We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. Please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.
+We may update this Privacy Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. Please therefore re-visit this Privacy Policy regularly to stay informed about our use of cookies and related technologies.
 
-The date at the top of this Cookie Policy indicates when it was last updated.
+The date at the top of this Privacy Policy indicates when it was last updated.
 
 ### Where can I get further information?
 
