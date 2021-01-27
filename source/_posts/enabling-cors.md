@@ -2,12 +2,9 @@
 title: Enabling CORS
 categories:
     - Programming
-    - System Administration
 tags: 
     - cordova
-    - wkwebview
-    - javascript
-    - ios
+    - mobile
 date: 2020/7/14
 twitter:
     shareid: twsrc%5Etfw

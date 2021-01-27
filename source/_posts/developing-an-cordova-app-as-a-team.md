@@ -2,9 +2,7 @@
 title: Developing an Cordova App as a Team
 categories:
     - Programming
-    - Cordova
 tags:
-    - source version control
     - cordova
 date: 2021/01/10
 twitter:

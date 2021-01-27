@@ -25,7 +25,5 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0"
   },
-  "devDependencies": {
-    "@breautek/hexo-prism-plugin": "0.0.0"
-  }
+  "devDependencies": {}
 }

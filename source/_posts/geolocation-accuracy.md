@@ -3,9 +3,6 @@ title: Understanding Geolocation Accuracy
 categories:
     - Programming
 tags:
-    - geolocation
-    - android
-    - ios
     - cordova
     - mobile
 date: 2020/8/25

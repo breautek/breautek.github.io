@@ -360,9 +360,14 @@ footer * {
 }
 
 .post-title {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: bold;
   margin: 3px 0;
+}
+
+.post-page .post-title {
+  font-size: 36px;
+  line-height: normal;
 }
 
 .post-meta {
@@ -392,6 +397,12 @@ pre {
     background: transparent !important;
   }
 }
+
+// .highlight .code {
+//   code, pre {
+//     white-space: nowrap;
+//   }
+// }
 
 figure {
   .gutter pre {

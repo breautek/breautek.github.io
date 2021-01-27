@@ -44,6 +44,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
   enable: true
   line_number: true
@@ -51,6 +52,8 @@ highlight:
   tab_replace: '    '
   wrap: true
   hljs: true
+prismjs:
+  enable: false
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -125,10 +128,10 @@ feed:
   content_limit_delim: ' '
 
 # For syntax highlighting
-prism_plugin: 
-  mode: 'preprocess'
-  theme: 'default'
-  line_number: true 
+# prism_plugin: 
+#   mode: 'preprocess'
+#   theme: 'okaidia'
+#   line_number: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
